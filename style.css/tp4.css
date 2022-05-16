@@ -1,0 +1,148 @@
+body {
+  margin: 0px;
+  background-image: url(/img/fond.png);
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  height: 90px;
+}
+.contenu {
+  background-color: white;
+  width: 1000px;
+  height: 800px;
+  margin: 25px 25%;
+}
+.aide h2 {
+  color: rgb(103, 220, 255);
+}
+.aide img {
+  margin-bottom: 30px;
+}
+.block1 {
+  display: flex;
+}
+.maboutique {
+  padding-left: 30px;
+}
+.maboutique p {
+  color: red;
+}
+.logo img {
+  padding-top: 32px;
+  padding-left: 14px;
+}
+ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.article {
+  display: flex;
+  background-color: rgb(103, 220, 255);
+}
+.compte {
+  background-color: rgb(103, 220, 255);
+}
+nav {
+  background: linear-gradient(
+    to left,
+    rgb(103, 220, 255) 90%,
+    rgb(224, 36, 168) 10%
+  );
+}
+.azzaro img {
+  margin-top: -16px;
+}
+
+.section2 {
+  display: flex;
+}
+.section3 {
+  display: flex;
+}
+footer {
+  background-color: rgb(103, 220, 255);
+}
+
+.aide p {
+  margin-top: -52px;
+  margin-left: 42px;
+  color: rgb(103, 220, 255);
+}
+
+h4 {
+  color: rgb(103, 220, 255);
+}
+.text1 {
+  width: 30%;
+  margin-left: 30px;
+}
+.text2 {
+  width: 40%;
+}
+.text3 {
+  width: 30%;
+  position: relative;
+  left: 55px;
+}
+head img {
+  margin-top: -18px;
+}
+
+ul {
+  list-style-type: none;
+}
+a:link {
+  text-decoration: none;
+}
+.robe img {
+  height: 80px;
+  width: 130px;
+}
+.talon img {
+  height: 80px;
+  width: 130px;
+}
+.chemise img {
+  height: 80px;
+  width: 130px;
+}
+
+.imageRobe {
+  display: flex;
+}
+.imageTalon {
+  display: flex;
+}
+.imageChemise {
+  display: flex;
+}
+.robe,
+.talon,
+.chemise {
+  box-shadow: 2px 4px 37px 5px;
+}
+.talon {
+  width: 30%;
+  margin: auto;
+  height: 173px;
+}
+.chemise {
+  width: 30%;
+  margin: auto;
+}
+.robe {
+  width: 30%;
+  margin: auto;
+}
+
+.chemise,
+.talon,
+.robe {
+  text-align: center;
+  background: linear-gradient(to top, white 70%, gray 90%);
+}
+ul {
+  height: 40px;
+}
